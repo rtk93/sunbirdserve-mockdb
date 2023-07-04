@@ -3,20 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": ".",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve-json": "json-server --watch db.json",
-    "compile": "npm run build && cd build && jar -cvf sunbird-mockdb.war ."
+    "serve-json": "json-server --watch db.json --port 3031"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "json-server": "^0.17.3",
-    "react-scripts": "^5.0.1",
     "read-scripts": "^1.1.0"
   }
 }
