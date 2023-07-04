@@ -1,0 +1,1095 @@
+{
+  "NeedType": [
+    {
+      "id": "guidnt01",
+      "name": "Online Teaching",
+      "description": "Teaching online for remote schools",
+      "status": "New",
+      "userId": "guidncd08",
+      "taskTypeId": "guidtt01",
+      "taxonomyId": "guidtx01",
+      "onboardingStepsId": "guidob01"
+    },
+    {
+      "id": "guidnt02",
+      "name": "Content Development",
+      "description": "Creation of Various Content",
+      "status": "Approved",
+      "userId": "guidncd08",
+      "taskTypeId": "guidtt02",
+      "taxonomyId": "guidtx02",
+      "onboardingStepsId": "guidob01"
+    },
+    {
+      "id": "guidnt03",
+      "name": "Lake Rejuvination",
+      "description": "Lake cleaning",
+      "status": "New",
+      "userId": "guidncd08",
+      "taskTypeId": "guidtt03",
+      "taxonomyId": "guidtx03",
+      "onboardingStepsId": "guidob02"
+    },
+    {
+      "id": "guidnt04",
+      "name": "Mentoring",
+      "description": "Mentoring online through mentors",
+      "status": "New",
+      "userId": "guidncd07",
+      "taskTypeId": "guidtt01",
+      "taxonomyId": "guidtx02",
+      "onboardingStepsId": "guidob01"
+    },
+    {
+      "id": "guidnt05",
+      "name": "Health Camps",
+      "description": "All health realted Camps",
+      "status": "Approved",
+      "userId": "guidncd67",
+      "taskTypeId": "guidtt03",
+      "taxonomyId": "guidtx03",
+      "onboardingStepsId": "guidob03"
+    },
+    {
+      "id": "guidnt06",
+      "name": "Field Activity",
+      "description": "Events/Activity conducted on field in remote schools",
+      "status": "New",
+      "userId": "guidncd34",
+      "taskTypeId": "guidtt03",
+      "taxonomyId": "guidtx01",
+      "onboardingStepsId": "guidob01"
+    }
+  ],
+  "TaskType": [
+    {
+      "id": "guidtt01",
+      "taskType": "Session"
+    },
+    {
+      "id": "guidtt02",
+      "taskType": "Tasks"
+    },
+    {
+      "id": "guidtt03",
+      "taskType": "Events"
+    }
+  ],
+  "Taxonomy": [
+    {
+      "id": "guidtx01",
+      "name": "Education",
+      "description": "Education based Taxonomy",
+      "domain": "Education",
+      "taxonomyStructure": "Heirarchy 1: Board\nHeirarchy 2: Subject\nHeirarchy 3: Grade"
+    },
+    {
+      "id": "guidtx02",
+      "name": "Mentoring",
+      "description": "Mentoring related taxonomy",
+      "domain": "Education",
+      "taxonomyStructure": "Heirarchy 1: Mentoring Type\nHeirarchy 2: Mentoring Environment\nHeirarchy 3: Mentoring Areas"
+    },
+    {
+      "id": "guidtx03",
+      "name": "Health and Civic",
+      "domain": "Health and Civic",
+      "taxonomyStructure": "Heirarchy 1: Realm\nHeirarchy 2: Category\nHeirarchy 3: Classification"
+    }
+  ],
+  "Need": [
+    {
+      "id": "guidn01",
+      "needTypeId": "guidnt01",
+      "name": "Science Grade 5",
+      "description": "Science Grade 5 remote teaching",
+      "status": "New",
+      "userId": "guidus01",
+      "entityId": "guidet01",
+      "requirementId": "guidnr01",
+      "taxonomyDetails": {
+        "Board": "CBSE",
+        "Grade": "5",
+        "Subject": "Science"
+      }
+    },
+    {
+      "id": "guidn02",
+      "needTypeId": "guidnt01",
+      "name": "Spoken English Classes",
+      "description": "Spoken english for all grades",
+      "status": "New",
+      "userId": "guidus01",
+      "entityId": "guidet01",
+      "requirementId": "guidnr04"
+    },
+    {
+      "id": "guidn03",
+      "needTypeId": "guidnt02",
+      "name": "Worksheet Creation",
+      "description": "Worksheet creation for grade 5 to 10",
+      "status": "Nominated",
+      "userId": "guidus01",
+      "entityId": "guidet02",
+      "requirementId": "guidnr03"
+    },
+    {
+      "id": "guidn04",
+      "needTypeId": "guidnt06",
+      "name": "Field Team Training",
+      "description": "Raichur Field team training",
+      "status": "Rejected",
+      "userId": "guidus01",
+      "entityId": "guidet02"
+    },
+    {
+      "id": "guidn05",
+      "needTypeId": "guidnt04",
+      "name": "Career Mentoring",
+      "description": "For grade 11th and 12th",
+      "status": "Approved",
+      "userId": "guidus01",
+      "entityId": "guidet02",
+      "requirementId": "guidnr02"
+    },
+    {
+      "id": "guidn06",
+      "needTypeId": "guidnt05",
+      "name": "Blood Donation Camp Rotary Club",
+      "status": "In Progress",
+      "userId": "guidus01",
+      "entityId": "guidet03",
+      "requirementId": "guidnr05"
+    },
+    {
+      "id": "guidn07",
+      "needTypeId": "guidnt05",
+      "name": "Platelet Donation for Cancer Hospital",
+      "status": "Nominated",
+      "userId": "guidus01",
+      "entityId": "guidet03"
+    },
+    {
+      "name": "",
+      "needTypeId": "",
+      "status": "New",
+      "description": "",
+      "userId": "",
+      "entityId": "",
+      "skillDetail": "",
+      "prerequisiteDetail": "",
+      "id": "oWb4Qce"
+    },
+    {
+      "name": "",
+      "needTypeId": "",
+      "status": "New",
+      "description": "",
+      "userId": "",
+      "entityId": "",
+      "skillDetail": "",
+      "prerequisiteDetail": "",
+      "id": "MrJelQt"
+    },
+    {
+      "name": "",
+      "needTypeId": "",
+      "status": "New",
+      "description": "",
+      "userId": "",
+      "entityId": "",
+      "skillDetail": "",
+      "prerequisiteDetail": "",
+      "id": "TLt6PCw"
+    },
+    {
+      "name": "",
+      "needTypeId": "",
+      "status": "New",
+      "description": "",
+      "userId": "",
+      "entityId": "",
+      "skillDetail": "",
+      "prerequisiteDetail": "",
+      "id": "_VeAPqv"
+    },
+    {
+      "name": "",
+      "needTypeId": "",
+      "status": "New",
+      "description": "",
+      "userId": "",
+      "entityId": "",
+      "skillDetail": "",
+      "prerequisiteDetail": "",
+      "id": "gkFFoYe"
+    },
+    {
+      "name": "Beach Clean",
+      "needTypeId": "",
+      "status": "New",
+      "description": "",
+      "userId": "",
+      "entityId": "",
+      "skillDetail": "",
+      "prerequisiteDetail": "",
+      "id": "o0spLDF"
+    },
+    {
+      "name": "",
+      "needTypeId": "",
+      "status": "New",
+      "description": "",
+      "userId": "",
+      "entityId": "",
+      "skillDetail": "",
+      "prerequisiteDetail": "",
+      "id": "guxHevY"
+    },
+    {
+      "name": "",
+      "needTypeId": "",
+      "status": "New",
+      "description": "",
+      "userId": "",
+      "entityId": "",
+      "skillDetail": "",
+      "prerequisiteDetail": "",
+      "id": "Lc7ISlc"
+    }
+  ],
+  "Entity": [
+    {
+      "id": "guidet01",
+      "name": "Abdul Kalam Digital School",
+      "address": {
+        "email": "akd@gmail.com",
+        "mobile": "789657897",
+        "address": {
+          "plot": "100",
+          "street": "MG Road",
+          "landmark": "City Center",
+          "locality": "Koramangala",
+          "state": "Karnataka",
+          "district": "Bangalore Urban",
+          "village": "Bangalore",
+          "pincode": "560001"
+        }
+      },
+      "category": "Education Insititute",
+      "status": "Active"
+    },
+    {
+      "id": "guidet02",
+      "name": "Thanthai Periyar Government Higher Secondary School",
+      "address": {
+        "email": "akd@gmail.com",
+        "mobile": "789657897",
+        "address": {
+          "plot": "100",
+          "street": "MG Road",
+          "landmark": "City Center",
+          "locality": "Koramangala",
+          "state": "Karnataka",
+          "district": "Bangalore Urban",
+          "village": "Bangalore",
+          "pincode": "560001"
+        }
+      },
+      "category": "Education Insititute",
+      "status": "Active"
+    },
+    {
+      "id": "guidet03",
+      "name": "Shankara Cancer Hospital",
+      "address": {
+        "email": "akd@gmail.com",
+        "mobile": "789657897",
+        "address": {
+          "plot": "100",
+          "street": "MG Road",
+          "landmark": "City Center",
+          "locality": "Koramangala",
+          "state": "Karnataka",
+          "district": "Bangalore Urban",
+          "village": "Bangalore",
+          "pincode": "560001"
+        }
+      },
+      "category": "Hospital",
+      "status": "Active"
+    }
+  ],
+  "OnboardingSteps": [
+    {
+      "id": "guidob01",
+      "name": "Teaching and Content Creation",
+      "description": "Onboarding steps for onboarding Volunteers for online teaching",
+      "stepDetail": "Step 1: Self Evaluation Step 2: Selection DiscussionStep 3: Training Step 4: Orientation"
+    },
+    {
+      "id": "guidob02",
+      "name": "Civic",
+      "description": "Onboarding steps for events related to civic activities",
+      "stepDetail": "Step 1: Registration Step 2: Orientation Step 3: Training Step 4: Action Plan"
+    },
+    {
+      "id": "guidob03",
+      "name": "Health",
+      "description": "Onboarding Steps for health related camps",
+      "stepDetail": "Step 1: Registration Step 2: Health Screening Step 3: Orientation Step 4: Action Plan"
+    },
+    {
+      "id": "guidob04",
+      "name": "Mentoring",
+      "description": "Onboarding steps for mentors",
+      "stepDetail": "Step 1: Self Evaluation Step 2: Selection Discussion Step 3: Training Step 4: Orientation Step 5: Relationship Building"
+    }
+  ],
+  "NeedRequirement": [
+    {
+      "id": "guidnr01",
+      "skillDetail": {
+        "language": [
+          "English",
+          "Tamil"
+        ],
+        "requiredSkills": [
+          {
+            "name": "Subject Knowledge",
+            "description": "Indepth understanding of the subject"
+          },
+          {
+            "name": "Language Profeciency",
+            "description": "Fluent in reading and writing Tamil"
+          }
+        ]
+      },
+      "prerequisiteDetail": {
+        "occurence": "Everyday",
+        "volunteersRequired": "2",
+        "duration": "1 Year",
+        "priority": "High",
+        "projectDetails": "Online teaching program for underprivileged students"
+      }
+    },
+    {
+      "id": "guidnr02",
+      "skillDetail": {
+        "language": [
+          "English",
+          "Tamil"
+        ],
+        "requiredSkills": {
+          "name": "Public Speaking",
+          "description": "Ability to deliver effective speeches and presentations"
+        }
+      },
+      "prerequisiteDetail": {
+        "occurence": "Flexible",
+        "volunteersRequired": "20",
+        "duration": "3 months",
+        "priority": "High",
+        "projectDetails": "Mentoring for Grade 12 students"
+      }
+    },
+    {
+      "id": "guidnr03",
+      "skillDetail": {
+        "language": [
+          "English",
+          "Tamil"
+        ],
+        "requiredSkills": {
+          "name": "Curriculum Alignment",
+          "description": "Ability to align worksheets with the 8th to 10th-grade science curriculum"
+        }
+      },
+      "prerequisiteDetail": {
+        "occurence": "As Needed",
+        "volunteersRequired": "30",
+        "duration": "6 months",
+        "priority": "Medium",
+        "projectDetails": "Creation of science worksheets for 8th to 10th-grade students"
+      }
+    },
+    {
+      "id": "guidnr04",
+      "skillDetail": {
+        "language": "English",
+        "requiredSkills": [
+          {
+            "name": "Fluency in English",
+            "description": "Ability to speak English confidently and articulately"
+          },
+          {
+            "name": "Teaching Methodology",
+            "description": "Knowledge of effective teaching techniques for spoken English"
+          }
+        ]
+      },
+      "prerequisiteDetail": {
+        "occurence": "Twice a week",
+        "volunteersRequired": "3",
+        "duration": "4 months",
+        "priority": "Medium",
+        "projectDetails": "Spoken English classes for non-native English speakers"
+      }
+    },
+    {
+      "id": "guidnr05",
+      "skillDetail": {
+        "language": "English",
+        "requiredSkills": {
+          "name": "Healthy Lifestyle",
+          "description": "Maintaining a healthy lifestyle to ensure eligibility for blood donation"
+        }
+      },
+      "prerequisiteDetail": {
+        "occurence": "Once",
+        "volunteersRequired": "50",
+        "duration": "1 day",
+        "priority": "High",
+        "projectDetails": "Individual blood donation as per the blood bank's requirements"
+      }
+    }
+  ],
+  "NeedPlan": [
+    {
+      "id": "guidnp01",
+      "name": "Plan - Science Grade 5",
+      "needId": "guidn01",
+      "assignedUserId": "guidfd01",
+      "status": "Approved",
+      "occurenceDetails": {
+        "frequency": "Daily",
+        "startDate": "2023-06-01",
+        "endDate": "2024-03-31",
+        "timeSlot": "10AM - 11AM",
+        "Days": [
+          "All"
+        ]
+      },
+      "proposedDetails": {
+        "timeSlot": "",
+        "Days": "",
+        "comments": ""
+      }
+    },
+    {
+      "id": "guidnp02",
+      "name": "Plan - Spoken English Classes",
+      "needId": "guidn02",
+      "assignedUserId": "guidfd02",
+      "status": "Approved",
+      "occurenceDetails": {
+        "frequency": "Weekly Once",
+        "startDate": "2023-06-01",
+        "endDate": "2024-03-31",
+        "timeSlot": "12PM - 1PM",
+        "Days": [
+          "Wednesday"
+        ]
+      },
+      "proposedDetails": {
+        "timeSlot": "",
+        "Days": "",
+        "comments": ""
+      }
+    },
+    {
+      "id": "guidnp03",
+      "name": "Plan - Worksheet Creation",
+      "needId": "guidn03",
+      "assignedUserId": "guidfd03",
+      "status": "Approved",
+      "occurenceDetails": {
+        "frequency": "Flexible",
+        "startDate": "2023-06-01",
+        "endDate": "2024-03-31",
+        "timeSlot": "",
+        "Days": ""
+      },
+      "proposedDetails": {
+        "timeSlot": "",
+        "Days": "",
+        "comments": ""
+      }
+    },
+    {
+      "id": "guidnp04",
+      "name": "Plan - Field Team Training",
+      "needId": "guidn04",
+      "assignedUserId": "guidfd04",
+      "status": "Approved",
+      "occurenceDetails": {
+        "frequency": "Daily",
+        "startDate": "2023-06-01",
+        "endDate": "2024-03-31",
+        "timeSlot": "10AM - 11AM",
+        "Days": [
+          "Tuesday",
+          "Wednesday",
+          "Thursday"
+        ]
+      },
+      "proposedDetails": {
+        "timeSlot": "",
+        "Days": "",
+        "comments": ""
+      }
+    },
+    {
+      "id": "guidnp05",
+      "name": "Plan - Career Mentoring",
+      "needId": "guidn05",
+      "assignedUserId": "guidfd05",
+      "status": "Approved",
+      "occurenceDetails": {
+        "frequency": "Weekly Twice",
+        "startDate": "2023-06-01",
+        "endDate": "2024-03-31",
+        "timeSlot": "10AM - 11AM",
+        "Days": [
+          "Thursday, Friday"
+        ]
+      },
+      "proposedDetails": {
+        "timeSlot": "",
+        "Days": "",
+        "comments": ""
+      }
+    },
+    {
+      "id": "guidnp06",
+      "name": "Plan - Blood Donation Camp Rotary Club",
+      "needId": "guidn06",
+      "assignedUserId": "guidfd06",
+      "status": "Approved",
+      "occurenceDetails": {
+        "frequency": "One Day",
+        "startDate": "2023-10-10",
+        "endDate": "2024-10-10",
+        "timeSlot": "10AM - 5PM",
+        "Days": [
+          "Sunday"
+        ]
+      },
+      "proposedDetails": {
+        "timeSlot": "",
+        "Days": "",
+        "comments": ""
+      }
+    },
+    {
+      "id": "guidnp07",
+      "name": "Plan - Platelet Donation for Cancer Hospital",
+      "needId": "guidn07",
+      "assignedUserId": "guidfd07",
+      "status": "Approved",
+      "occurenceDetails": {
+        "frequency": "One Day",
+        "startDate": "2023-10-10",
+        "endDate": "2024-10-10",
+        "timeSlot": "10AM - 5PM",
+        "Days": [
+          "Sunday"
+        ]
+      },
+      "proposedDetails": {
+        "timeSlot": "",
+        "Days": "",
+        "comments": ""
+      }
+    }
+  ],
+  "NeedDeliverable": [
+    {
+      "id": "guidnd01",
+      "needPlanId": "guidnp01",
+      "taskType": "Sessions",
+      "fulfillmentDetailsId": "guidfd01",
+      "sessionNumber": 205,
+      "status": "In progress"
+    },
+    {
+      "id": "guidnd02",
+      "needPlanId": "guidnp02",
+      "taskType": "Sessions",
+      "fulfillmentDetailsId": "guidfd02",
+      "sessionNumber": 56,
+      "status": "In progress"
+    },
+    {
+      "id": "guidnd03",
+      "needPlanId": "guidnp03",
+      "taskType": "Tasks",
+      "fulfillmentDetailsId": "guidfd03",
+      "sessionNumber": 78,
+      "status": "In progress"
+    },
+    {
+      "id": "guidnd04",
+      "needPlanId": "guidnp04",
+      "taskType": "Events",
+      "fulfillmentDetailsId": "guidfd04",
+      "sessionNumber": 3,
+      "status": "Completed"
+    },
+    {
+      "id": "guidnd05",
+      "needPlanId": "guidnp05",
+      "taskType": "Sessions",
+      "fulfillmentDetailsId": "guidfd05",
+      "sessionNumber": 90,
+      "status": "Closed"
+    },
+    {
+      "id": "guidnd06",
+      "needPlanId": "guidnp06",
+      "taskType": "Events",
+      "fulfillmentDetailsId": "guidfd06",
+      "sessionNumber": 1,
+      "status": "Not Started"
+    },
+    {
+      "id": "guidnd07",
+      "needPlanId": "guidnp07",
+      "taskType": "Events",
+      "fulfillmentDetailsId": "guidfd07",
+      "sessionNumber": 1,
+      "status": "Not Started"
+    }
+  ],
+  "FulfillmentDetails": [
+    {
+      "id": "guidfd01",
+      "needId": "guidn01",
+      "assignedUserId": "guidv01",
+      "coordUserId": "guidnc01",
+      "assignedDate": "2023-06-01",
+      "status": "Not Started"
+    },
+    {
+      "id": "guidfd02",
+      "needId": "guidn02",
+      "assignedUserId": "guidv02",
+      "coordUserId": "guidnc01",
+      "assignedDate": "2023-06-01",
+      "status": "Not Started"
+    },
+    {
+      "id": "guidfd03",
+      "needId": "guidn03",
+      "assignedUserId": "guidv03",
+      "coordUserId": "guidnc01",
+      "assignedDate": "2023-08-01",
+      "status": "In Progress"
+    },
+    {
+      "id": "guidfd04",
+      "needId": "guidn04",
+      "assignedUserId": "guidv04",
+      "coordUserId": "guidnc02",
+      "assignedDate": "2023-03-01",
+      "status": "Scheduled"
+    },
+    {
+      "id": "guidfd05",
+      "needId": "guidn05",
+      "assignedUserId": "guidv05",
+      "coordUserId": "guidnc02",
+      "assignedDate": "2023-04-01",
+      "status": "Completed"
+    },
+    {
+      "id": "guidfd06",
+      "needId": "guidn06",
+      "assignedUserId": "guidv06",
+      "coordUserId": "guidnc01",
+      "assignedDate": "2023-10-10",
+      "status": "Completed"
+    },
+    {
+      "id": "guidfd07",
+      "needId": "guidn07",
+      "assignedUserId": "guidv07",
+      "coordUserId": "guidnc01",
+      "assignedDate": "2023-08-09",
+      "status": "Completed"
+    }
+  ],
+  "SessionDetails": [
+    {
+      "id": "guidns01",
+      "needDeliverableId": "guidnd01",
+      "startTime": "10:00 AM",
+      "endTime": "11:00 AM",
+      "sessionDate": "2023-06-01",
+      "status": "Completed"
+    },
+    {
+      "id": "guidns02",
+      "needDeliverableId": "guidnd01",
+      "startTime": "10:00 AM",
+      "endTime": "11:00 AM",
+      "sessionDate": "2023-06-02",
+      "status": "Cancelled",
+      "comments": "Volunteer not available"
+    },
+    {
+      "id": "guidns03",
+      "needDeliverableId": "guidnd01",
+      "startTime": "10:00 AM",
+      "endTime": "11:00 AM",
+      "sessionDate": "2023-06-03",
+      "status": "Scheduled"
+    },
+    {
+      "id": "guidns04",
+      "needDeliverableId": "guidnd01",
+      "startTime": "10:00 AM",
+      "endTime": "11:00 AM",
+      "sessionDate": "2023-06-04",
+      "status": "Completed"
+    }
+  ],
+  "TaskDetails": [
+    {
+      "id": "guidtd01",
+      "needDeliverableId": "guidnd03",
+      "taskType": "Content Development",
+      "startDate": "2023-06-01",
+      "dueDate": "2023-06-02",
+      "priority": 1,
+      "taskDetailUrl": "url",
+      "status": "In Review",
+      "submitTaskDetail": "submittedDate: 2023-06-02,\nurl: url\nremarks: Kannada worksheet for chapter 2 submitted",
+      "comments": "This worksheet is under review"
+    }
+  ],
+  "EventDetails": [
+    {
+      "id": "guided01",
+      "needDeliverableId": "guidnd04",
+      "eventType": "Field Team Training",
+      "details": "Training session for the field team members",
+      "eventDate": "2023-06-01",
+      "status": "Scheduled",
+      "comments": "Instruct to get all the training materials"
+    },
+    {
+      "id": "guided02",
+      "needDeliverableId": "guidnd04",
+      "eventType": "Field Team Training",
+      "details": "Training session for the field team members",
+      "eventDate": "2023-06-02",
+      "status": "Scheduled",
+      "comments": "Day 2 Training"
+    },
+    {
+      "id": "guided03",
+      "needDeliverableId": "guidnd06",
+      "eventType": "Blood Donation",
+      "details": "Community blood donation camp",
+      "eventDate": "2023-06-04",
+      "status": "Completed",
+      "comments": "Open to all eligible donor"
+    }
+  ],
+  "Nomination": [
+    {
+      "id": "guidenmd01",
+      "needId": "guidn01",
+      "nominationDetails": {
+        "nominatedUserId": "7890",
+        "nominatedDate": "2023-06-14T10:30:00Z",
+        "nominationStatus": "Approved",
+        "comments": "This user has excellent skills for the role."
+      }
+    },
+    {
+      "id": "guidenmd01",
+      "needId": "guidn01",
+      "nominationDetails": {
+        "nominatedUserId": "7891",
+        "nominatedDate": "2023-06-14T10:30:00Z",
+        "nominationStatus": "Proposed",
+        "comments": "Proposed different need relevant to user skills"
+      }
+    }
+  ],
+  "Users": [
+    {
+      "id": "guidus01",
+      "identityDetails": {
+        "fullname": "Rajesh Kumar",
+        "gender": "Male",
+        "dob": "1990-06-25",
+        "Nationality": "Indian"
+      },
+      "contactDetails": {
+        "email": "rajeshkumar@example.com",
+        "phone": [
+          "+91-9876543210"
+        ],
+        "address": {
+          "plot": "100",
+          "street": "MG Road",
+          "landmark": "City Center",
+          "locality": "Koramangala",
+          "state": "Karnataka",
+          "district": "Bangalore Urban",
+          "village": "Bangalore",
+          "pincode": "560001"
+        }
+      },
+      "agencyId": "guidag01",
+      "role": [
+        "Volunteer"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "guidus02",
+      "identityDetails": {
+        "fullname": "Priya Patel",
+        "gender": "Female",
+        "dob": "1988-09-15",
+        "Nationality": "Indian"
+      },
+      "contactDetails": {
+        "email": "priyapatel@example.com",
+        "mobile": "+91-9876543211",
+        "address": {
+          "plot": "50",
+          "street": "Jawahar Road",
+          "landmark": "Gandhi Park",
+          "locality": "Civil Lines",
+          "state": "Uttar Pradesh",
+          "district": "Lucknow",
+          "village": "Lucknow",
+          "pincode": "226001"
+        }
+      },
+      "agencyId": "guidag01",
+      "role": [
+        "nCoordinator",
+        "nAdmin"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "guidus03",
+      "identityDetails": {
+        "fullname": "Amit Sharma",
+        "gender": "Male",
+        "dob": "1993-04-05",
+        "Nationality": "Indian"
+      },
+      "contactDetails": {
+        "email": "amitsharma@example.com",
+        "mobile": "+91-9876543212",
+        "address": {
+          "plot": "25",
+          "street": "Park Avenue",
+          "landmark": "City Mall",
+          "locality": "Hadapsar",
+          "state": "Maharashtra",
+          "district": "Pune",
+          "village": "Pune",
+          "pincode": "411028"
+        }
+      },
+      "agencyId": "guidag08",
+      "role": [
+        "Volunteer"
+      ],
+      "status": "active"
+    }
+  ],
+  "UserProfile": [
+    {
+      "id": "guidvp01",
+      "volunteerId": "guidus01",
+      "genericDetails": {
+        "qualification": "Graduate",
+        "affiliation": "XYZ Company",
+        "employmentStatus": "Full Time",
+        "yearsOfExperience": "5"
+      },
+      "userPreference": {
+        "language": [
+          "English",
+          "Hindi"
+        ],
+        "dayPreferred": [
+          "Monday",
+          "Wednesday"
+        ],
+        "timePreferred": [
+          "Morning",
+          "Afternoon"
+        ],
+        "interestAreas": [
+          "Education",
+          "Environment"
+        ]
+      },
+      "Skills": {
+        "skills": [
+          {
+            "skillName": "Leadership",
+            "skillLevel": "Advanced"
+          },
+          {
+            "skillName": "Communication",
+            "skillLevel": "Intermediate"
+          }
+        ]
+      },
+      "onboardingStatus": {
+        "onboardStatus": [
+          {
+            "onboardStep": "Step 1",
+            "status": "Completed"
+          },
+          {
+            "onboardStep": "Step 2",
+            "status": "In Progress"
+          }
+        ],
+        "refreshPeriod": "6 months",
+        "profileCompletion": "80%"
+      },
+      "consentDetails": {
+        "consentDetails": {
+          "consentGiven": "True",
+          "consentDate": "2023-08-03",
+          "consentDescription": "Consent given for sharing preference to other volunteer agency through secure network"
+        }
+      },
+      "referenceChannelId": "guidag04"
+    },
+    {
+      "id": "null",
+      "volunteerId": "null",
+      "genericDetails": "null",
+      "userPreference": "null",
+      "Skills": "null",
+      "onboardingStatus": "null"
+    },
+    {
+      "id": "guidvp03",
+      "volunteerId": "guidvol03",
+      "genericDetails": {
+        "qualification": "Pre University",
+        "organisation": "PQR Organization",
+        "employmentStatus": "Not Employed",
+        "yearsOfExperience": ""
+      },
+      "userPreference": {
+        "language": [
+          "English",
+          "Kannada"
+        ],
+        "dayPreferred": [
+          "Friday"
+        ],
+        "timePreferred": [
+          "Afternoon"
+        ],
+        "interestAreas": [
+          "Animal Welfare"
+        ]
+      },
+      "Skills": {
+        "skills": [
+          {
+            "skillName": "Time Management",
+            "skillLevel": "Intermediate"
+          },
+          {
+            "skillName": "Public Speaking",
+            "skillLevel": "Beginner"
+          }
+        ]
+      },
+      "onboardingStatus": {
+        "onboardStatus": [
+          {
+            "onboardStep": "Step 1",
+            "status": "In Progress"
+          },
+          {
+            "onboardStep": "Step 2",
+            "status": "Not Started"
+          }
+        ],
+        "refreshPeriod": "3 months",
+        "profileCompletion": "50%"
+      },
+      "consentDetails": "guidref02"
+    }
+  ],
+  "Agency": [
+    {
+      "id": "guidag01",
+      "name": "ABC Volunteers",
+      "description": "We connect volunteers with organizations in need.",
+      "establishedDate": "2010-08-15",
+      "contactDetails": {
+        "email": "info@abcvolunteers.org",
+        "mobile": "9876543210",
+        "address": {
+          "plot": "789",
+          "street": "Park Avenue",
+          "landmark": "Next to Central Park",
+          "locality": "Gulmohar Colony",
+          "state": "Maharashtra",
+          "district": "Mumbai",
+          "village": "Mumbai",
+          "pincode": "400001"
+        }
+      },
+      "agencyType": "Volunteer Agency",
+      "website": "https://www.abcvolunteers.org"
+    },
+    {
+      "id": "guidag02",
+      "name": "Bright Beginnings Foundation",
+      "description": "We provide education and support to children from slum areas.",
+      "establishedDate": "2007-10-15",
+      "contactDetails": {
+        "email": "info@brightbeginnings.org",
+        "mobile": "1234567890",
+        "address": {
+          "plot": "123",
+          "street": "Main Street",
+          "landmark": "Near Community Center",
+          "locality": "Slum Area, ABC Colony",
+          "state": "Maharashtra",
+          "district": "Mumbai",
+          "village": "Mumbai",
+          "pincode": "400001"
+        }
+      },
+      "agencyType": "Need Agency",
+      "website": "https://www.brightbeginnings.org"
+    }
+  ],
+  "ReferenceChannel": [
+    {
+      "id": "guidref01",
+      "name": "Infosys Technologies Limited",
+      "description": "Corporate Engagement",
+      "channelType": "Corporate"
+    },
+    {
+      "id": "guidref02",
+      "name": "Social Media",
+      "description": "Through tweet",
+      "channelType": "Social Media"
+    }
+  ]
+}
